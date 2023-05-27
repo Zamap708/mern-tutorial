@@ -14,8 +14,9 @@ const postSchema = new mongoose.Schema(
             type: String,
             required: true,
         },
-        location: String,
-        description: String,
+        forum: String,
+        postTitle: String,
+        postContent: String,
         picturePath: String,
         userPicturePath: String,
         likes: {
@@ -23,7 +24,7 @@ const postSchema = new mongoose.Schema(
             of: Boolean,
         },
         comments: {
-            types: Array,
+            type: Array,
             default: []
         }
     },

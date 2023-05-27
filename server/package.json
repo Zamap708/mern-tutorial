@@ -6,9 +6,10 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "keywords": [],
-  "author": "",
+  "author": "Zama F Phungula",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
